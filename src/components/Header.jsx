@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Jobs from './Jobs';
 
 const Header = () => {
     return (
@@ -20,17 +22,20 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Statistics</a></li>
-                    <li><a>Applied Jobs</a></li>
-                    <li><a>Blog</a></li>
+                    <Link className='mr-5 text-xl' to='/statistics'>Statistics</Link>
+                    <Link className='mr-5 text-xl' to='/appliedjobs'>Applied Jobs</Link>
+                    <Link className='mr-5 text-xl' to='blogs'>Blogs</Link>
 
                 </ul>
             </div>
             <div className="navbar-end">
                 <a className="btn btn-primary">Star Applying</a>
             </div>
+
         </div>
+
     );
 };
+<Jobs></Jobs>
 
 export default Header;

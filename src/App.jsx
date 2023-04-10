@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Home from './components/Home'
-import Jobs from './components/Jobs'
+import { Outlet } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Home></Home>
-      <Jobs></Jobs>
+      <div className='md:min-h-[calc(100vh-141px)]'>
+        <Outlet />
+
+      </div>
+      <Footer></Footer>
     </div>
   )
 }
