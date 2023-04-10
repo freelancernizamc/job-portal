@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "/src/assets/All Images/google-1-1 1.png",
+        "name": "Technical Database Engineer",
+        "company": "Google LLC"
+    },
+    {
+        "id": 2,
+        "image": "/src/assets/All Images/netflix-4 1.png",
+        "name": "Senior Product Designer",
+        "company": "Netflix"
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/All Images/tesla-9 1.png",
+        "name": "Software Engineer",
+        "company": "Tesla"
+    },
+    {
+        "id": 4,
+        "image": "/src/assets/All Images/Group 10021.png",
+        "name": "Motion Graphic Designer",
+        "company": "Airbnb LLc"
+    },
+    {
+        "id": 5,
+        "image": "/src/assets/All Images/phero.jpg",
+        "name": "React Developer",
+        "company": "Programming Hero"
+    },
+    {
+        "id": 6,
+        "image": "/src/assets/All Images/google-1-1 1.png",
+        "name": "Softwaer Engineer",
+        "company": "Google LLC"
+    }
+]
