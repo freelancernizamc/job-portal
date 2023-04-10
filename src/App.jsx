@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App bg-[#F9F9FF]">
       <Header></Header>
-      <div className='md:min-h-[calc(100vh-141px)]'>
+      <div className='md:min-h-[calc(100vh-341px)]'>
         <Outlet />
 
       </div>

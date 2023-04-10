@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../assets/All Images/md-nizamuddin (1).jpeg'
 import Jobs from './Jobs';
+import FeaturedJobs from './FeaturedJobs';
 
 const Home = () => {
     return (
@@ -17,6 +18,9 @@ const Home = () => {
             </div>
             <div>
                 <Jobs></Jobs>
+            </div>
+            <div>
+                <FeaturedJobs />
             </div>
         </div>
 
