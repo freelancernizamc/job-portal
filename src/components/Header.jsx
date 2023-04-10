@@ -36,6 +36,6 @@ const Header = () => {
 
     );
 };
-<Jobs></Jobs>
+
 
 export default Header;
