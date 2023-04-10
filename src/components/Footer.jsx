@@ -31,6 +31,7 @@ const Footer = () => {
                         <a className="link link-hover">Assignment 01</a>
                         <a className="link link-hover">Assignment 02</a>
                         <a className="link link-hover">Assignment 03</a>
+                        <a className="link link-hover">Assignment 04</a>
                     </div>
                 </footer>
             </div>
