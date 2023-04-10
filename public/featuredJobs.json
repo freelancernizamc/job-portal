@@ -9,7 +9,11 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@google.com",
+            "phone": "02912987654"
+        }
     },
     {
         "id": 2,
@@ -21,7 +25,11 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@netflix.com",
+            "phone": "03912987659"
+        }
     },
     {
         "id": 3,
@@ -33,7 +41,11 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@tesla.com",
+            "phone": "04912987658"
+        }
     },
     {
         "id": 4,
@@ -45,7 +57,11 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@airbnb.com",
+            "phone": "03912987650"
+        }
     },
     {
         "id": 5,
@@ -57,7 +73,11 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@phero.com",
+            "phone": "01819968181"
+        }
     },
     {
         "id": 6,
@@ -69,6 +89,10 @@
         "job description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "job responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "educational requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field."
+        "experiences": "2-3 Years in this field.",
+        "contact information": {
+            "email": "info@google.com",
+            "phone": "02912987654"
+        }
     }
 ]

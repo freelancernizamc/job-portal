@@ -6,9 +6,9 @@ import FeaturedJobs from './FeaturedJobs';
 const Home = () => {
     return (
         <div>
-            <div className='flex items-center bg-[#FAF8FF]'>
+            <div className='md:flex items-center bg-[#FAF8FF]'>
                 <div className='text-left'>
-                    <h1 className='text-7xl font-extrabold pb-5'>One Step<br></br> Closer To Your <span className='text-[#4406CB]'>Dream Job</span></h1>
+                    <h1 className='sm:text-5xl md:text-7xl font-extrabold pb-5'>One Step<br></br> Closer To Your <span className='text-[#4406CB]'>Dream Job</span></h1>
                     <p className='pb-5'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className='btn bg-[#4406CB]'>Get Started</button>
                 </div>

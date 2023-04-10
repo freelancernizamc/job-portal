@@ -29,9 +29,9 @@ const FeaturedJobs = () => {
 
     return (
         <div className='mb-10'>
-            <h1 className='text-5xl font-extrabold mt-20 mb-5'>Featured Jobs</h1>
+            <h1 className='sm:text-2xl md:text-5xl font-extrabold mt-20 mb-5'>Featured Jobs</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            <div className='grid grid-cols-2 gap-10 ml-20 mt-20'>
+            <div className='grid md:grid-cols-2 gap-10 md:ml-20 mt-20'>
                 {features.slice(0, seeAllJobs ? undefined : 4).map((features, index) => (
                     <div className="card w-full bg-base-100 shadow-xl">
                         <figure><img src={features.image} alt="Jobs" /></figure>
@@ -44,11 +44,11 @@ const FeaturedJobs = () => {
                                 <div className="btn btn-outline">Remote</div>
                                 <div className="btn btn-outline">Full Time</div>
                                 <div className='flex mb-5'>
-                                    <div className='flex mr-10'>
+                                    <div className='md:flex mr-10'>
                                         <img src="/src/assets/Icons/Frame-4.png" alt='location' />
                                         <p>Dhaka, Bangladesh</p>
                                     </div>
-                                    <div className='flex'>
+                                    <div className='md:flex'>
                                         <img src="/src/assets/Icons/Frame.png" alt="salary" />
                                         <p>Salary : 100K - 150K</p>
                                     </div>

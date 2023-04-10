@@ -16,10 +16,10 @@ const Jobs = () => {
 
     return (
         <div className='mb-10'>
-            <h1 className='text-5xl font-extrabold mt-20 mb-5'>Job Category List</h1>
+            <h1 className='sm:text-2xl md:text-5xl font-extrabold mt-20 mb-5'>Job Category List</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div>
-                <div className='grid grid-cols-4 gap-4 mt-20'>
+                <div className='grid md:grid-cols-4 gap-4 mt-20'>
                     {categories.map((category, index) => (
                         <div className="card card-compact w-full bg-base-100 shadow-xl">
                             <figure><img src={category.image} alt="Jobs" /></figure>
