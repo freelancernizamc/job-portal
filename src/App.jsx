@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App bg-[#F9F9FF]">
       <Header></Header>
       <div className='md:min-h-[calc(100vh-141px)]'>
         <Outlet />

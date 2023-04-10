@@ -4,7 +4,7 @@ import Jobs from './Jobs';
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#F9F9FF]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -22,6 +22,7 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
+                    <Link className='mr-5 text-xl' to='/home'>Home</Link>
                     <Link className='mr-5 text-xl' to='/statistics'>Statistics</Link>
                     <Link className='mr-5 text-xl' to='/appliedjobs'>Applied Jobs</Link>
                     <Link className='mr-5 text-xl' to='blogs'>Blogs</Link>
