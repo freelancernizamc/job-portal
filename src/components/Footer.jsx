@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../assets/All Images/nizam.png'
+
 
 
 const Footer = () => {
@@ -8,8 +8,8 @@ const Footer = () => {
             <div>
                 <footer className="footer p-10 bg-black text-white">
                     <div>
-                        <img className='w-[100px] h-[100px]' src={img} />
-                        <p className='text-left'>Assignment 09.<br />Submitted by Md Nizam Uddin</p>
+
+                        <p className='text-left text-2xl'>Assignment 09.<br />Submitted by Md Nizam Uddin</p>
                         <p>Batch 07</p>
                     </div>
                     <div>
