@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/src/assets/All Images/google-1-1 1.png",
+        "image": "https://i.ibb.co/WFYkd4p/google-1-1-1.png",
         "job_title": "Technical Database Engineer",
         "company": "Google LLC",
         "location": "32435, New York, USA",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "image": "/src/assets/All Images/netflix-4 1.png",
+        "image": "https://i.ibb.co/8NG6J3K/netflix-4-1.png",
         "job_title": "Senior Product Designer",
         "company": "Netflix",
         "location": "32439, Texas, USA",
@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "image": "/src/assets/All Images/tesla-9 1.png",
+        "image": "https://i.ibb.co/fp263dr/tesla-9-1.png",
         "job_title": "Software Engineer",
         "company": "Tesla",
         "location": "32437, London, UK",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "image": "/src/assets/All Images/Group 10021.png",
+        "image": "https://i.ibb.co/cgTMN4v/Group-10021.png",
         "job_title": "Motion Graphic Designer",
         "company": "Airbnb LLc",
         "location": "32438, Dubai, UAE",
@@ -65,7 +65,7 @@
     },
     {
         "id": 5,
-        "image": "/src/assets/All Images/phero.jpg",
+        "image": "https://i.ibb.co/ZfHht2M/phero.jpg",
         "job_title": "React Developer",
         "company": "Programming Hero",
         "location": "Dhanmondi 32, Dhaka, Bangladesh",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "image": "/src/assets/All Images/google-1-1 1.png",
+        "image": "https://i.ibb.co/WFYkd4p/google-1-1-1.png",
         "job_title": "Softwaer Engineer",
         "company": "Google LLC",
         "location": "3259, New York, USA",
