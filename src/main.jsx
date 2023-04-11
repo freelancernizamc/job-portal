@@ -10,6 +10,7 @@ import Jobs from './components/Jobs'
 import AppliedJobs from './components/AppliedJobs'
 import ErrorPage from './components/ErrorPage'
 import JobDetails from './components/JobDetails'
+import FeaturedJobs from './components/FeaturedJobs'
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: '/jobdetails',
         element: <JobDetails />
+      },
+      {
+        path: '/featuredjobs',
+        element: <FeaturedJobs />
       },
     ]
   },

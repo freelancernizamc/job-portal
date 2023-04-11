@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../assets/All Images/P3OLGJ1 copy 1.png'
+import img from '../assets/All Images/md-nizamuddin (1).jpeg'
 import Jobs from './Jobs';
 import FeaturedJobs from './FeaturedJobs';
 

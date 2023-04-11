@@ -1,6 +1,12 @@
 import React from 'react';
 
 const JobDetails = () => {
+
+    const handleClick = () => {
+        window.location.href = '/appliedjobs';
+    };
+
+
     return (
         <div>
             <div className='h-[400px] text-center bg-[#F9F9FF] flex justify-center items-center'>
@@ -25,16 +31,16 @@ const JobDetails = () => {
                         <div className="card-body">
                             <h2 className="card-title">Job Details</h2>
                             <div className='flex'>
-                                <img src="/src/assets/Icons/Frame.png" alt="salary" />
+                                <img src="https://i.ibb.co/p0vv2Gq/Frame.png" alt="salary" />
                                 <p>Salary : 100K - 150K</p>
                             </div>
                             <div className='flex'>
-                                <img src="/src/assets/Icons/Frame-1.png" alt="salary" />
+                                <img src="https://i.ibb.co/nnGrRXm/Frame-1.png" alt="salary" />
                                 <p>Job Title : Product Designer</p>
                             </div>
                             <h2 className='text-xl font-bold'>Contact Information</h2>
                             <div className='flex'>
-                                <img src="/src/assets/Icons/Frame-2.png" alt="phone" />
+                                <img src="https://i.ibb.co/xqwtzsz/Frame-2.png" alt="phone" />
                                 <p>Phone : 01819968181</p>
                             </div>
                             <div className='flex'>
@@ -42,12 +48,12 @@ const JobDetails = () => {
                                 <p>Email : info@gmail.com</p>
                             </div>
                             <div className='flex'>
-                                <img src="/src/assets/Icons/Frame-4.png" alt="address" />
+                                <img src="https://i.ibb.co/NjChk1j/Frame-4.png" alt="address" />
                                 <p>Address : Dhanmondi 32, Sukrabad
                                     Dhaka, Bangladesh</p>
                             </div>
                             <div className="card-actions w-full">
-                                <button className="btn btn-primary w-full">Apply Now</button>
+                                <button onClick={handleClick} className="btn btn-primary w-full">Apply Now</button>
                             </div>
                         </div>
                     </div>

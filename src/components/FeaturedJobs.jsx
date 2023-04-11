@@ -45,11 +45,11 @@ const FeaturedJobs = () => {
                                 <div className="btn btn-outline">Full Time</div>
                                 <div className='flex mb-5'>
                                     <div className='md:flex mr-10'>
-                                        <img src="/src/assets/Icons/Frame-4.png" alt='location' />
+                                        <img src="https://i.ibb.co/NjChk1j/Frame-4.png" alt='location' />
                                         <p>Dhaka, Bangladesh</p>
                                     </div>
                                     <div className='md:flex'>
-                                        <img src="/src/assets/Icons/Frame.png" alt="salary" />
+                                        <img src="https://i.ibb.co/p0vv2Gq/Frame.png" alt="salary" />
                                         <p>Salary : 100K - 150K</p>
                                     </div>
                                 </div>

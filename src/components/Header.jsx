@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import Jobs from './Jobs';
 
 const Header = () => {
+
+
+    const handleClick = () => {
+        window.location.href = '/appliedjobs';
+    };
+
     return (
         <div className="navbar bg-[#F9F9FF]">
             <div className="navbar-start">
@@ -30,7 +36,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary">Star Applying</a>
+                <a onClick={handleClick} className="btn btn-primary">Star Applying</a>
             </div>
 
         </div>

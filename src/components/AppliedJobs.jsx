@@ -18,6 +18,9 @@ const AppliedJobs = () => {
     const handleClick = () => {
         window.location.href = '/jobdetails';
     };
+    const remoteClick = () => {
+        window.location.href = '/featuredjobs';
+    };
 
     return (
         <div>
@@ -25,7 +28,7 @@ const AppliedJobs = () => {
                 <h1 className='text-3xl font-bold'>Applied Jobs</h1>
 
             </div>
-            <div className='flex'>
+            <div className='flex justify-between'>
                 <div className='grid  gap-10 md:ml-20 mt-20 w-[500px]'>
                     {features.slice(0, 4).map((features, index) => (
                         <div className="card w-full bg-base-100 shadow-xl">
@@ -40,11 +43,11 @@ const AppliedJobs = () => {
                                     <div className="btn btn-outline">Full Time</div>
                                     <div className='flex mb-5'>
                                         <div className='md:flex mr-10'>
-                                            <img src="/src/assets/Icons/Frame-4.png" alt='location' />
+                                            <img src="https://i.ibb.co/NjChk1j/Frame-4.png" alt='location' />
                                             <p>Dhaka, Bangladesh</p>
                                         </div>
                                         <div className='md:flex'>
-                                            <img src="/src/assets/Icons/Frame.png" alt="salary" />
+                                            <img src="https://i.ibb.co/p0vv2Gq/Frame.png" alt="salary" />
                                             <p>Salary : 100K - 150K</p>
                                         </div>
                                     </div>
@@ -61,8 +64,12 @@ const AppliedJobs = () => {
                     ))}
 
                 </div>
-
+                <div>
+                    <button onClick={remoteClick} className='btn bg-[#4406CB]'>Remote Job</button>
+                    <button onClick={remoteClick} className='btn'>on-site</button>
+                </div>
             </div>
+
         </div>
     );
 };
