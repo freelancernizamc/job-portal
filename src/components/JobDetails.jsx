@@ -44,7 +44,7 @@ const JobDetails = () => {
                                 <p>Phone : 01819968181</p>
                             </div>
                             <div className='flex'>
-                                <img src="/src/assets/Icons/Frame-3.png" alt="email" />
+                                <img src="https://i.ibb.co/drY5pBv/Frame-3.png" alt="email" />
                                 <p>Email : info@gmail.com</p>
                             </div>
                             <div className='flex'>
